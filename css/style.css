@@ -77,29 +77,22 @@ input[type="radio"].visually-hidden {
 .page {
   position: relative;
   min-width: 1200px;
-}
-
-.page__bg-slide {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-repeat: no-repeat;
+  background-color: #849d8f;
   background-position: top center;
+  background-repeat: no-repeat;
 }
 
-.page__bg-slide--1 {
+.page-slide--1 {
   background-color: #849d8f;
   background-image: url(../img/slide1.png);
 }
 
-.page__bg-slide--2 {
+.page-slide--2 {
   background-color: #8996a6;
   background-image: url(../img/slide2.png);
 }
 
-.page__bg-slide--3 {
+.page-slide--3 {
   background-color: #9d8b84;
   background-image: url(../img/slide3.png);
 }

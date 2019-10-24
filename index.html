@@ -7,8 +7,7 @@
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.min.css" rel="stylesheet">
 </head>
-<body class="page">
-  <div class="page__bg-slide page__bg-slide--1"></div>
+<body class="page page-slide page-slide--1">
   <div class="container">
     <header class="page-header page__header">
       <nav class="nav">
@@ -81,13 +80,13 @@
       <h2 class="visually-hidden">Управление слайдером</h2>
       <ul class="slider__controls">
         <li class="slider__radio">
-          <button class="slider__btn slider__btn--active" onclick="changeSlide(event, 'page__bg-slide--1')"><span class="visually-hidden">Отобразить первый слайд</span></button>
+          <button class="slider__btn slider__btn--active" onclick="changeSlide(event, 'page-slide--1')"><span class="visually-hidden">Отобразить первый слайд</span></button>
         </li>
         <li class="slider__radio">
-          <button class="slider__btn" onclick="changeSlide(event, 'page__bg-slide--2')"><span class="visually-hidden">Отобразить второй слайд</span></button>
+          <button class="slider__btn" onclick="changeSlide(event, 'page-slide--2')"><span class="visually-hidden">Отобразить второй слайд</span></button>
         </li>
         <li class="slider-radio">
-          <button class="slider__btn" onclick="changeSlide(event, 'page__bg-slide--3')"><span class="visually-hidden">Отобразить третий слайд</span></button>
+          <button class="slider__btn" onclick="changeSlide(event, 'page-slide--3')"><span class="visually-hidden">Отобразить третий слайд</span></button>
         </li>
     </ul>
     </section>
@@ -283,8 +282,8 @@
         slideBtn[i].className = slideBtn[i].className.replace('slider__btn--active', '');
       };
 
-      slideContent = document.querySelector('.page__bg-slide');
-      slideContent.className = 'page__bg-slide';
+      slideContent = document.querySelector('.page-slide');
+      slideContent.className = 'page page-slide';
       
       slideContent.classList.add(slideNumber);
       evt.currentTarget.classList.add('slider__btn--active');
