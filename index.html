@@ -72,7 +72,7 @@
       </nav>
       <div class="page-header__contacts">
           <p class="page-header__work-time">С 10 до 20, ежедневно</p>
-          <p class="page-header__phone">8 812 450-25-25</p>      
+          <p class="page-header__phone">8 812 450-25-25</p>
         </div>
       </header>
     <h1 class="visually-hidden">Главная страница интернет-магазина мороженого «Глэйси»</h1>
@@ -97,14 +97,14 @@
           <article class="advantage advantage--raspberry">
             <h3>Малинка даром!</h3>
             <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
-            <a class="btn advantage__btn" href="#">Хочу варенье!</a>
+            <a class="btn advantage__btn">Хочу варенье!</a>
           </article>
         </li>
         <li>
           <article class="advantage advantage--chocolate">
             <h3>Шоколадки даром!</h3>
             <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-             <a class="btn advantage__btn" href="#">Хочу шоколадки!</a>
+             <a class="btn advantage__btn">Хочу шоколадки!</a>
           </article>
         </li>
       </ul>
@@ -120,7 +120,7 @@
               <b class="product-card__price">310₽<span>/кг</span></b>
             </p>
             <p class="product-card__desc">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
-            <a class="btn product-card__btn" href="#">Быстрый просмотр</a>
+            <a class="btn product-card__btn">Быстрый просмотр</a>
           </article>
         </li>
         <li>
@@ -131,7 +131,7 @@
               <b class="product-card__price">380₽<span>/кг</span></b>
             </p>
              <p class="product-card__desc">Сливочно-кофейное с кусочками шоколада</p>
-            <a class="btn product-card__btn" href="#">Быстрый просмотр</a>
+            <a class="btn product-card__btn">Быстрый просмотр</a>
           </article>
         </li>
         <li>
@@ -142,7 +142,7 @@
               <b class="product-card__price">355₽<span>/кг</span></b>
             </p>
             <p class="product-card__desc">Сливочно-клубничное с присыпкой из белого шоколада</p>
-            <a class="btn product-card__btn" href="#">Быстрый просмотр</a>
+            <a class="btn product-card__btn">Быстрый просмотр</a>
           </article>
         </li>
         <li>
@@ -150,10 +150,10 @@
             <h3 class="visually-hidden">Карточка товара</h3>
             <p class="product-card__img-wrapper icon-hit">
               <img src="img/item-4.jpg" alt="Изображение мороженого">
-              <b class="product-card__price">415₽<span>/кг</span></b>                  
+              <b class="product-card__price">415₽<span>/кг</span></b>
             </p>
             <p class="product-card__desc">Сливочное крем-брюле с карамельной подливкой</p>
-            <a class="btn product-card__btn" href="#">Быстрый просмотр</a>
+            <a class="btn product-card__btn">Быстрый просмотр</a>
           </article>
         </li>
       </ul>
@@ -179,7 +179,7 @@
       <article class="blog">
         <h2 class="visually-hidden">Наш блог</h2>
         <p class="blog__new">Новое в нашем блоге</p>
-        <a class="blog__heading" href="#">10 способов сервировки фруктовых щербетов к столу</a>
+        <a class="blog__heading">10 способов сервировки фруктовых щербетов к столу</a>
       </article>
       <section class="email-subscribe">
         <h2 class="visually-hidden">Подписка на почтовую рассылку</h2>
@@ -247,15 +247,15 @@
       <section class="other-info">
         <h2 class="visually-hidden">Прочие ссылки:</h2>
         <ul class="other-info__list">
-          <li class="other-info__list-item"><a class="other-info__link" href="#">Для поставщиков</a></li>
-          <li class="other-info__list-item"><a class="other-info__link" href="#">О производстве</a></li>
-          <li class="other-info__list-item"><a class="other-info__link" href="#">Наши документы</a></li>          
-          <li class="other-info__list-item"><a class="other-info__link" href="#">Экологические стандарты</a></li>
+          <li class="other-info__list-item"><a class="other-info__link">Для поставщиков</a></li>
+          <li class="other-info__list-item"><a class="other-info__link">О производстве</a></li>
+          <li class="other-info__list-item"><a class="other-info__link">Наши документы</a></li>
+          <li class="other-info__list-item"><a class="other-info__link">Экологические стандарты</a></li>
         </ul>
       </section>
       <section class="copyright footer__copyright">
         <h2 class="visually-hidden">Информация о разработчике</h2>
-        <p>Сделано myLovelyWeb</p>
+        <a href="https://github.com/myLovelyWeb">Сделано myLovelyWeb</a>
       </section>
     </footer>
   </div>
@@ -284,7 +284,7 @@
 
       slideContent = document.querySelector('.page-slide');
       slideContent.className = 'page page-slide';
-      
+
       slideContent.classList.add(slideNumber);
       evt.currentTarget.classList.add('slider__btn--active');
     }
